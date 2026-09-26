@@ -22,9 +22,15 @@ function App() {
           Learn React
         </a>
       </header> */}
-      {/* <Greet></Greet> */}
+      <Greet name="Ayo" heroName="Flash">
+        <p>This is children props</p>
+      </Greet>
+      <Greet name="Clark" heroName="Superman">
+        <button>Action</button>
+      </Greet>
+      <Greet name="Diana" heroName="Batman"></Greet>
       {/* <Welcome></Welcome> */}
-      <Hello></Hello>
+      {/* <Hello></Hello> */}
     </div>
   );
 }
