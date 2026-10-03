@@ -1,0 +1,10 @@
+/* NOTE - Styling and CSS Basics - 20 */
+/* * Using regular CSS Style Sheets */
+
+.primary {
+  color: orange;
+}
+
+.font-xl {
+  font-size: 72px;
+}
