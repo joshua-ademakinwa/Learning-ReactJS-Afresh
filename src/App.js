@@ -16,7 +16,9 @@ import "./App.css";
 import "./appStyles.css";
 // import styles from "./appStyles.module.css";
 // import Form from "./components/Form";
-import LifecycleA from "./components/LifecycleA";
+// import LifecycleA from "./components/LifecycleA";
+// import FragmentDemo from "./components/FragmentDemo";
+import Tables from "./components/Tables";
 
 function App() {
   return (
@@ -64,7 +66,9 @@ function App() {
       {/* <h1 className="error">Error</h1> */}
       {/* <h1 className={styles.success}>Success</h1> */}
       {/* <Form></Form> */}
-      <LifecycleA></LifecycleA>
+      {/* <LifecycleA></LifecycleA> */}
+      {/* <FragmentDemo></FragmentDemo> */}
+      <Tables></Tables>
     </div>
   );
 }

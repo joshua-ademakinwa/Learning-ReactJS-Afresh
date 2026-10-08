@@ -1,4 +1,5 @@
-// NOTE - Component Mounting Lifecycle Methods
+// NOTE - Component Mounting Lifecycle Methods - 23
+// NOTE - Component Updating Lifecycle Methods - 24
 
 import React, { Component } from "react";
 
@@ -17,6 +18,18 @@ class LifecycleB extends Component {
   }
   componentDidMount() {
     console.log("LifecycleB componentDidMount");
+  }
+  shouldComponentUpdate() {
+    console.log('LifecycleB shouldComponentUpdate');
+    return true;
+  }
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log('LifecycleB getSnapshotBeforeUpdate');
+    return null;
+  }
+  componentDidUpdate() {
+    console.log('LifecycleB componentDidUpdate');
+    // return true;
   }
   render() {
     console.log("LifecycleB render");
