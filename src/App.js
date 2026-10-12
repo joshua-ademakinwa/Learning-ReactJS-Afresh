@@ -18,7 +18,9 @@ import "./appStyles.css";
 // import Form from "./components/Form";
 // import LifecycleA from "./components/LifecycleA";
 // import FragmentDemo from "./components/FragmentDemo";
-import Tables from "./components/Tables";
+// import Tables from "./components/Tables";
+// import PureComp from "./components/PureComp";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
@@ -68,7 +70,9 @@ function App() {
       {/* <Form></Form> */}
       {/* <LifecycleA></LifecycleA> */}
       {/* <FragmentDemo></FragmentDemo> */}
-      <Tables></Tables>
+      {/* <Tables></Tables> */}
+      {/* <PureComp></PureComp> */}
+      <ParentComp></ParentComp>
     </div>
   );
 }
